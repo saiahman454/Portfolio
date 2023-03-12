@@ -1,0 +1,41 @@
+{
+  "GameObject": {
+    "Name": "SwordfishEnemy",
+    "Flag": "Enemy",
+    "Sprite": {
+      "Mesh": "SwordfishSpineMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "SpriteSource": {
+      "Texture": "./Assets/Spine/SwordfishRig.png",
+      "Rows": 1,
+      "Cols": 1
+    },
+    "Animation": {
+      "Type": "Spine",
+      "Name": "SwordfishRig"
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 100.0, 100.0 ],
+      "Rotation": 0.0
+    },
+    "Physics": {
+      "Velocity": [ 0.0, 0.0 ],
+      "Acceleration": [ 0.0, 0.0 ],
+      "Rotation": 0.0,
+      "Restitution": 0.0,
+      "Mass": 10.0
+    },
+    "SquareCollider": {
+      "Size": [ 100.0, 100.0 ],
+      "GhostCollider": true
+    },
+    "Swordfish": {
+      "Speed": 50.0,
+      "EngageRadius": 300.0,
+      "SoundFileName": "Swordfish Attack SFX/Weapons-SwordHits-MCU-Met_2.wav",
+      "SoundVolume": 0.5
+    }
+  }
+}

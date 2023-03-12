@@ -1,0 +1,22 @@
+{
+  "GameObject": 
+    {
+      "Name": "HealthPickup",
+      "Flag" : "Extra",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [1.0, 0.0, 0.0, 1.0]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Img_Healthbubble.png",
+        "Rows": 1,
+        "Cols": 1,
+        "FrameIndex": 1
+      },
+      "Transform": {
+        "Translation": [ -2000.0, 2000, -0.5 ],
+        "Scale": [ 64.0, 64.0 ],
+        "Rotation": 0.0
+      }
+    }
+}

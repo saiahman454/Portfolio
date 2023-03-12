@@ -1,0 +1,147 @@
+{
+  "GameObjects": [
+    {
+      "Name": "OptionsScreen",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Menu_Options.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 1020.0 ],
+        "Scale": [ 1280.0, 720.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "RestartBehavior": {
+
+      }
+    },
+    {
+      "Name": "Controls",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "LoadSceneButtonBehavior": {
+        "GameState": "ControlsPause",
+        "NoneTex": "UI_Button_Controls_Idle",
+        "HoveredTex": "UI_Button_Controls_Hover",
+        "ClickedTex": "UI_Button_Controls_Clicked",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Button_Pause_Continue_Clicked.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 5.15960693359375, 250.0, 1030.0 ],
+        "Scale": [ 390.0, 130.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 0.0, 135.0, 0.0 ]
+      }
+    },
+    {
+      "Name": "Continue",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "ExitSceneButtonBehavior": {
+        "GameState": "Pause",
+        "NoneTex": "UI_Button_Back_Idle",
+        "HoveredTex": "UI_Button_Back_Hover",
+        "ClickedTex": "UI_Button_Back_Idle",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Button_Pause_Continue_Clicked.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 5.15960693359375, 250.0, 1030.0 ],
+        "Scale": [ 300.0, 100.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ -480.0, 300.0, 0.0 ]
+      }
+    },
+    {
+      "Name": "FullScreen",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "FullScreenBehavior": {
+        "ButtonOn": "UI_Button_Options_Check_Clicked",
+        "ButtonOff": "UI_Button_Pause_X_Idle",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Button_Pause_X_Idle.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 5.15960693359375, 250.0, 1030.0 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 55.0, -262.0, 0.0 ]
+      }
+    },
+    {
+      "Name": "Mute",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "MuteBehavior": {
+        "ButtonOn": "UI_Button_Options_Check_Clicked",
+        "ButtonOff": "UI_Button_Pause_X_Idle",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Button_Pause_X_Idle.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 5.15960693359375, 250.0, 1030.0 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 55.0, -68.0, 0.0 ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "GameObject": {
+    "Name": "Player",
+    "Flag": "Player",
+    "Animation": {
+      "Type": "Spine",
+      "Name": "SquampleRig"
+    },
+    "Sprite": {
+      "Mesh": "SquampleSpineMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "SpriteSource": {
+      "Texture": "./Assets/Spine/SquampleRig.png",
+      "Rows": 1,
+      "Cols": 1
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 100.0, 100.0 ],
+      "Rotation": 0.0
+    },
+    "Physics": {
+      "Velocity": [ 0.0, 0.0 ],
+      "Acceleration": [ 0.0, 0.0 ],
+      "Rotation": 0.0,
+      "Restitution": 1.0001,
+      "Mass": 10.0
+    },
+    "CameraAnchor": {
+    },
+    "ParticleEmitter": {
+      "Texture": "./Assets/Texture/UI_Img_03.png",
+      "Number": 30,
+      "Life": 10.0,
+      "MinSpeed": 10.0,
+      "MaxSpeed": 80.0,
+      "MinSpreadAngle": 0.0,
+      "MaxSpreadAngle": 360.0,
+      "Direction": 0.0,
+      "Burst": true,
+      "Timer": 1.0
+    },
+    "PlayerController": {
+      "Speed": 70.0,
+      "MaxSpeed": 800.0,
+      "DashMaxSpeed": 1800.0,
+      "AccelerationMultiplier": 20.0,
+      "DecelerationMultiplier": 1.0,
+      "DriftSpeed": 0.2,
+      "StaminaRegenTime": 2.0,
+      "MaxDashStaminaRatio": 1.0,
+      "MaxDashMultiplier": 4.0,
+      "DashBaseLastingTime": 0.25,
+      "DashForce": 1000.0,
+      "DashFileName": "/SFX/Player/Player_Dash",
+      "DashVolume": 0.5,
+      "BounceFileName": "/SFX/Player/Player_WallBump",
+      "BounceVolume": 0.5,
+      "WinFileName": "/SFX/Events/Event_Goal",
+      "WinVolume": 0.5,
+      "LoseFileName": "/SFX/Player/Player_Death",
+      "LoseVolume": 0.5,
+      "MoveSoundFileName": "/SFX/Player/Player_Move",
+      "MoveSoundVolume": 0.5,
+      "LevelEndTriggerX": 0.0
+    },
+    "SquareCollider": {
+      "Size": [ 90.0, 90.0 ],
+      "GhostCollider": false
+    },
+    "Health": {
+      "Lifes": 3,
+      "MaxLifes": 5
+    }
+  }
+}

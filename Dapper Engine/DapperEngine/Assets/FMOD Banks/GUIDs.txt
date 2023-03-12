@@ -1,0 +1,64 @@
+{34fbf2e4-1e6e-46d5-be5f-7e8718a3e385} bank:/Master
+{ace6d230-6f15-0a97-3816-f479e950e51d} bank:/Master.strings
+{04d81f51-ecee-4c75-b18b-b4787582f987} bus:/
+{ee5fe6e8-34cb-4fa3-bc5f-b3f3bfda484b} bus:/All SFX
+{4a164e30-a6b5-42c2-b051-e1de4cc23228} bus:/All SFX/Ambience
+{358bc652-e324-43ec-af6e-568273d2c219} bus:/All SFX/Dynamic EQ
+{d328e5c4-bdf5-4b80-b100-4ddc459ec60e} bus:/All SFX/Dynamic EQ/High
+{ec032917-4a35-45d6-bea2-68246d6e9be7} bus:/All SFX/Dynamic EQ/Low
+{fa6ee94d-46d7-4e07-924b-928bf3968a9b} bus:/All SFX/Dynamic EQ/Low Mid
+{f2272fdd-e192-4f14-9802-674d025f0349} bus:/All SFX/Dynamic EQ/Mid
+{0230699b-8cd2-4b53-b09d-0c318147d019} bus:/All SFX/Reverb
+{ac114c66-e68d-4e7d-8afb-89da5b9fdec5} bus:/All SFX/SFX
+{ac8a1e5c-c933-452b-8b59-d3384d4ce05c} bus:/All SFX/SFX/Enemies
+{6bceb091-91d5-4332-beda-33a4baa4d73b} bus:/All SFX/SFX/Enemies/Jellyfish
+{01c80d89-eac2-4556-85d2-ae44f452ac0d} bus:/All SFX/SFX/Enemies/Swordfish
+{b964105f-8df2-4d95-8224-63329c0d0756} bus:/All SFX/SFX/Events
+{93211c96-9633-46da-a607-d0f14e2c3f09} bus:/All SFX/SFX/Player
+{11fbf9ab-5c19-4cfd-a158-f8bcdeae05f2} bus:/All SFX/SFX/UI
+{e1ec85f2-c28d-416e-b689-f41131b16afd} bus:/Music
+{291e0864-3aba-4226-a66c-f15a0c61ab99} event:/Ambience/Ambience_Controller
+{78b602a4-bc29-4050-809b-01103c16397f} event:/Ambience/Ambience_Level1_Caves
+{f0d76dad-b8a9-42ce-bcd5-3d0847e73361} event:/Ambience/Ambience_Level2_Reef
+{6ffffb11-8f64-47b0-aa60-a06b3548e720} event:/Ambience/Ambience_Level3_Open
+{5b01a38e-dafa-4cdb-bd04-9ad10fd2a63a} event:/Ambience/Ambience_Lose
+{5d8dc07e-329b-4c88-a4e9-2b6da8230d33} event:/Ambience/Ambience_Menu
+{2ca28b07-8429-4a12-b399-fe19eae56839} event:/Ambience/Ambience_Win
+{e4523ff9-3626-4b9e-8411-0d6ac503d7fd} event:/Music/BGM_Controller
+{34aa5eaf-7db4-4e57-a53e-7d70234adaf6} event:/Music/BGM_Credits
+{c43be147-2ba4-4fde-aa09-38048691a928} event:/Music/BGM_Level1
+{1aadf245-7fe6-48ca-a79f-8825de5b67e8} event:/Music/BGM_Level2
+{3138c5a3-252a-4241-b086-3eaec87a15cd} event:/Music/BGM_Level3
+{8952a321-462f-4015-984a-fa4e733a9d54} event:/Music/BGM_Lose
+{e6253a93-9e0e-4499-89c9-44e4cf63d241} event:/Music/BGM_Menu
+{0cc84a34-3006-445a-93cc-19a285d35a37} event:/Music/BGM_Win
+{153b715a-9635-404c-ade2-7e4ef23c06b4} event:/SFX/Enemies/Jellyfish/Jellyfish_Crackle
+{a7650ec1-2029-4d97-a723-2d0412852323} event:/SFX/Enemies/Jellyfish/Jellyfish_Damage
+{684988a2-f8fc-4c3b-aaab-9a2291d0aa52} event:/SFX/Enemies/Jellyfish/Jellyfish_Move
+{17c7178c-766c-429d-942d-1ef2e58be661} event:/SFX/Enemies/Swordfish/Swordfish_Damage
+{ac6323ae-8526-4455-a82f-a46f960f54e3} event:/SFX/Enemies/Swordfish/Swordfish_Dash
+{9bda77d1-a01c-49bb-9b1d-68fae6395d1f} event:/SFX/Enemies/Swordfish/Swordfish_Warning
+{b2d35796-3041-4fcd-91b6-88259c59e3d2} event:/SFX/Events/Event_AllCollectables
+{91dbeac9-fd98-4ed5-9290-47707fbf9493} event:/SFX/Events/Event_Goal
+{9bddae3f-be0e-4926-bc6d-a62f0d310e36} event:/SFX/Events/Event_Stinger_DapperDolphins
+{b0e72a1e-9926-4785-b65b-e3e07c7656c1} event:/SFX/Events/Event_Stinger_DigiPen
+{578f16cb-4a8d-49d4-b161-054db827dc82} event:/SFX/Events/Event_TitleSequence
+{bb3baeaa-04c3-4092-a20e-3c455902fa74} event:/SFX/Player/Player_Breaching
+{33ef6a7e-bff4-4dbc-921a-768ad520335d} event:/SFX/Player/Player_Damage
+{0b15987f-5759-4896-b894-ec1c566dfca3} event:/SFX/Player/Player_Dash
+{19ba7d13-4ad2-4191-aedf-01be217109f8} event:/SFX/Player/Player_Death
+{c15208e8-765e-41bd-9b01-c7bda6ce0d97} event:/SFX/Player/Player_Jump
+{ce2d2612-3a2b-41e8-bf5a-869347fa4fbd} event:/SFX/Player/Player_Move
+{78126864-16f4-466e-91b5-3af99e656326} event:/SFX/Player/Player_PickupCollectable
+{dada4cd5-c013-4ced-8102-2f1bee784869} event:/SFX/Player/Player_PickupHealth
+{d3a742e6-6b33-448c-9b43-bd42151ce0a0} event:/SFX/Player/Player_WallBreak
+{ce561e60-a367-475b-933e-9d3ef00a3c19} event:/SFX/Player/Player_WallBump
+{80ab41d9-53bb-4b64-9ae5-d0863d54318a} event:/SFX/UI/UI_Decrease
+{944c6f64-390d-4bda-820c-b744cfa8cee5} event:/SFX/UI/UI_Increase
+{877a7afc-8a89-4ed4-9e29-aa0c7d9fc837} event:/SFX/UI/UI_Rollover
+{249f4577-50da-49a6-81bd-c1c86c9ffce9} event:/SFX/UI/UI_Select
+{ae3b97bc-8fcb-4735-99eb-c24f45347e87} parameter:/Health
+{a8f7c35c-72d3-44e5-9a73-ccc7cd73633a} parameter:/distance
+{ce478e1e-87b5-4636-b9e0-8f2d5ba14416} parameter:/gameState
+{d77fc47d-f444-4a47-a52f-d2b75b25fe71} parameter:/paused
+{2fa65cd9-a9f2-46d8-95b6-094e57c17614} parameter:/speed

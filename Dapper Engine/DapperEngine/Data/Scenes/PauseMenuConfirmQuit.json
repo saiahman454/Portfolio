@@ -1,0 +1,85 @@
+{
+  "GameObjects": [
+
+    {
+      "Name": "ExitGame",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Menu_QuitConf.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 3000.1 ],
+        "Scale": [ 1280.0, 720.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "CameraAnchor": {
+      }
+    },
+    {
+      "Name": "GoBack",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Button_Lose_TryAgain_Idle.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 3001.11 ],
+        "Scale": [ 450.0, 150.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ -250.0, -250.0, 0.0 ]
+      },
+      "ExitSceneButtonBehavior": {
+        "NoneTex": "UI_Button_Quit_GoBack_Idle",
+        "HoveredTex": "UI_Button_Quit_GoBack_Hover",
+        "ClickedTex": "UI_Button_Quit_GoBack_Clicked",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      }
+    },
+    {
+      "Name": "Exit",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Button_Pause_Quit_Idle.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 3001 ],
+        "Scale": [ 450.0, 150.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 250.0, -250.0, 0.0 ]
+      },
+      "QuitButtonBehavior": {
+        "NoneTex": "UI_Button_Quit_Yes_Idle",
+        "HoveredTex": "UI_Button_Quit_Yes_Hover",
+        "ClickedTex": "UI_Button_Quit_Yes_Clicked",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      }
+    }
+  ]
+}

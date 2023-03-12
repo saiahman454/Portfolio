@@ -1,0 +1,18 @@
+Swordfish Rig.png
+size:2048,512
+filter:Linear,Linear
+pma:true
+Back Fin
+bounds:653,284,134,210
+Fin Front
+bounds:653,284,134,210
+Body
+bounds:452,2,805,155
+Dorsal
+bounds:515,254,240,136
+rotate:90
+Nose
+bounds:452,159,335,61
+rotate:90
+Tail
+bounds:2,44,448,450

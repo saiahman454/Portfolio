@@ -1,0 +1,957 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{82b6763f-06ab-4a76-b745-1dd92229b594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ISystems">
+      <UniqueIdentifier>{8eaba94d-e1db-4870-adfd-87a0bec50204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{3bb90990-db06-4509-810c-01aac9999d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Component">
+      <UniqueIdentifier>{0840fafe-67ef-47e2-b655-3c1f8121ce70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{f0008b4e-73ac-4f7f-9f94-cb2a5ea56bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{16593239-1be2-4492-b9b8-d3cbe4d12fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Component\StateMachines">
+      <UniqueIdentifier>{13431cd5-0422-43d9-945a-c6fcfda1768a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Component\Colliders">
+      <UniqueIdentifier>{3f638840-aa6a-44b4-b2f2-450e2a774bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{54d6a85b-10c8-48f7-ab83-9a72834394fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ISystems\Level Editor">
+      <UniqueIdentifier>{7ba2625a-c60d-4160-aa99-0561ee41783b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Spine">
+      <UniqueIdentifier>{45d6a81b-4cfc-4704-addc-cb7df862dbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Component\Animations">
+      <UniqueIdentifier>{8bdebf66-f814-4b16-8dfb-cca4f2028845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\spinecpp">
+      <UniqueIdentifier>{3d12cf09-aacb-4c11-bf91-36ce797e198e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ISystems\Managers">
+      <UniqueIdentifier>{9a58ca5c-ac31-445c-857e-1e4edac1e46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ISystems\Managers\ComponentManagers">
+      <UniqueIdentifier>{6dd45e94-aedf-4cd0-8ea2-7cd1df0e37c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Component\Behaviors">
+      <UniqueIdentifier>{d882ecc5-d0ad-421a-a725-c9616da11c13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Engine.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Deserializer.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjectManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStateManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Transform.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lerp.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerController.cpp">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentRegistry.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CircleCollider.cpp">
+      <Filter>Source Files\GameObject\Component\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SquareCollider.cpp">
+      <Filter>Source Files\GameObject\Component\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteSource.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Time.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_tables.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_demo.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_draw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_tables.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_widgets.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dependencies\ImGui\imgui_stdlib.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BehaviorDeserializer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitter.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelEditor.cpp">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObjectListBox.cpp">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentWindow.cpp">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IDManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelEditor.cpp">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Background.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BackgroundManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BehaviorManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ColliderManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleEmitterManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PhysicsManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteSourceManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TransformManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraAnchorManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpineData.cpp">
+      <Filter>Source Files\Spine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\AnimationState.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\AnimationStateData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Atlas.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\AtlasAttachmentLoader.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Attachment.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\AttachmentLoader.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\AttachmentTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Bone.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\BoneData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\BoundingBoxAttachment.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\ClippingAttachment.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\ColorTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\ConstraintData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\CurveTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\DeformTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\DrawOrderTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Event.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\EventData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\EventTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Extension.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\IkConstraint.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\IkConstraintData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\IkConstraintTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Json.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\LinkedMesh.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Log.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\MathUtil.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\MeshAttachment.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\PathAttachment.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\PathConstraint.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\PathConstraintData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\PathConstraintMixTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\PathConstraintPositionTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\PathConstraintSpacingTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\PointAttachment.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\RegionAttachment.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\RotateTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\RTTI.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\ScaleTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\ShearTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Skeleton.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\SkeletonBinary.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\SkeletonBounds.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\SkeletonClipping.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\SkeletonData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\SkeletonJson.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Skin.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Slot.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\SlotData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Spine_Animation.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\SpineObject.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\TextureLoader.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Timeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\TransformConstraint.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\TransformConstraintData.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\TransformConstraintTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\TranslateTimeline.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Triangulator.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\Updatable.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\VertexAttachment.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\spine\src\spine\VertexEffect.cpp">
+      <Filter>Source Files\spinecpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationSprite.cpp">
+      <Filter>Source Files\GameObject\Component\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationSpine.cpp">
+      <Filter>Source Files\GameObject\Component\Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraAnchor.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpineInstance.cpp">
+      <Filter>Source Files\Spine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tile.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TileManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Window.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Health.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JsonWriter.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SaveMenu.cpp">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FpsWindow.cpp">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HealthManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Trace.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleSystem.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EmitHealth.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EmitHealthManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FloatingHeartBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Swordfish.cpp">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UIManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BGMBehavior.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PrefabsWindow.cpp">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\JellyfishBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NavButtonBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QuitButtonBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneManager.cpp">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BreakableWallBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\RestartBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SwordfishMissle.cpp">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollectibleBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteText.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteTextManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerCollectiblesUIBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelCollectiblesUIBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProgressionBarBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SplashFadeBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MassChangeWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CreditScrollBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TotalCollectable.cpp">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TotalCollectableManager.cpp">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenuBackgroundBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FullScreenBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MuteBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Ambience.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BGMController.cpp">
+      <Filter>Source Files\ISystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadSceneButtonBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ExitSceneButtonBehavior.cpp">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Engine.h">
+      <Filter>Source Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CommonValues.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Deserializer.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjectManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameStateManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IComponent.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ITypeManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Physics.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Lerp.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerController.h">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentRegistry.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ICollider.h">
+      <Filter>Source Files\GameObject\Component\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CircleCollider.h">
+      <Filter>Source Files\GameObject\Component\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SquareCollider.h">
+      <Filter>Source Files\GameObject\Component\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_opengl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShaderManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_opengl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imstb_rectpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imstb_textedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imstb_truetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteSource.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Time.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Dependencies\ImGui\imgui_stdlib.h">
+      <Filter>Source Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorDeserializer.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelEditor.h">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObjectListBox.h">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IimguiWindow.h">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ISystem.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentWindow.h">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitter.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IDManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelEditor.h">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Background.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BackgroundManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ColliderManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleEmitterManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PhysicsManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteSourceManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TransformManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraAnchorManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpineData.h">
+      <Filter>Source Files\Spine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IAnimation.h">
+      <Filter>Source Files\GameObject\Component\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationSprite.h">
+      <Filter>Source Files\GameObject\Component\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\AnimationSpine.h">
+      <Filter>Source Files\GameObject\Component\Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraAnchor.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpineInstance.h">
+      <Filter>Source Files\Spine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpineTextureLoader.h">
+      <Filter>Source Files\Spine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Tile.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TileManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Window.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IStateMachine.h">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Health.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messenger.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JsonWriter.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SaveMenu.h">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FpsWindow.h">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IJsonWriter.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\HealthManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Trace.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ParticleSystem.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EmitHealth.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EmitHealthManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FloatingHeartBehavior.h">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UIManager.h">
+      <Filter>Source Files\ISystems\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Swordfish.h">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BGMBehavior.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PrefabsWindow.h">
+      <Filter>Source Files\ISystems\Level Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Transform.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\JellyfishBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NavButtonBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\QuitButtonBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SwordfishMissle.h">
+      <Filter>Source Files\GameObject\Component\StateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollectibleBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BreakableWallBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\RestartBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteText.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteTextManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Particle.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerCollectiblesUIBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LevelCollectiblesUIBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ProgressionBarBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SplashFadeBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MassChangeWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CreditScrollBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TotalCollectable.h">
+      <Filter>Source Files\GameObject\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TotalCollectableManager.h">
+      <Filter>Source Files\ISystems\Managers\ComponentManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainMenuBackgroundBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FullScreenBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MuteBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Ambience.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BGMController.h">
+      <Filter>Source Files\ISystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadSceneButtonBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ExitSceneButtonBehavior.h">
+      <Filter>Source Files\GameObject\Component\Behaviors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

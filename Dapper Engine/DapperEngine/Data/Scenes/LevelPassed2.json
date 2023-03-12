@@ -1,0 +1,97 @@
+{
+  "GameObjects": [
+    {
+      "Name": "LevelPassedScreen",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Menu_Win.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.1 ],
+        "Scale": [ 1600.0, 900.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "RestartBehavior": {
+
+      }
+    },
+    {
+      "Name": "NextLevelButton",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "NavButtonBehavior": {
+        "GameState": "Level3",
+        "NoneTex": "UI_Button_Continue_Idle",
+        "HoveredTex": "UI_Button_Continue_Hover",
+        "ClickedTex": "UI_Button_Continue_Clicked",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Button_Lose_TryAgain_Idle.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 5.15960693359375, 250.0, 0.10999999940395355 ],
+        "Scale": [ 600.0, 200.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ -300.0, -50.0, 0.0 ]
+      }
+    },
+    {
+      "Name": "CollectedText",
+      "Flag": "",
+      "SpriteText": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ],
+        "Text": "0/3"
+      },
+      "Transform": {
+        "Translation": [ -196.042236328125, 101.29034423828125, 0.10000000149011612 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Rotation": 0.0
+      },
+      "TotalCollectable": {
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/Rushing_Tide_Font.png",
+        "Rows": 6,
+        "Cols": 16
+      }
+    },
+    {
+      "Name": "ColltableUI",
+      "Flag": "UI",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/ENV_Prop_SandDollar.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ -250.0, 100.6400146484375, 0.20000003278255463 ],
+        "Scale": [ 64.0, 64.0 ],
+        "Rotation": 0.0
+      }
+    }
+  ]
+}

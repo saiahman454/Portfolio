@@ -1,0 +1,36 @@
+{
+  "GameObject": {
+    "Name": "EmitHealth",
+    "Flag": "FloatingHealth",
+    "Sprite": {
+      "Mesh": "SquareMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "SpriteSource": {
+      "Texture": "./Assets/Texture/UI_Img_Healthbubble.png",
+      "Rows": 1,
+      "Cols": 1,
+      "FrameIndex": 1
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, -0.5 ],
+      "Scale": [ 50.0, 50.0 ],
+      "Rotation": 0.0
+    },
+    "Physics": {
+      "Velocity": [ 0.0, 30.0 ],
+      "Acceleration": [ 0.0, 0.0 ],
+      "Rotation": 0.0,
+      "Restitution": 1.0001,
+      "Mass": 10.0
+    },
+    "SquareCollider": {
+      "Size": [ 60.0, 60.0 ],
+      "GhostCollider": true
+    },
+    "FloatingHeartBehavior": {
+      "FileName": "/SFX/Player/Player_PickupHealth",
+      "Volume": 0.5
+    }
+  }
+}

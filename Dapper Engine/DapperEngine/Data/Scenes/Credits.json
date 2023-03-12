@@ -1,0 +1,50 @@
+{
+  "GameObjects": [
+    {
+      "Name": "Credits",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Menu_ScrollCredits.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0, 0.0, 3000.0 ],
+        "Scale": [ 1000.0, 6750.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 500.0, 300.0, 0.0 ]
+      },
+      "CreditScrollBehavior": {
+        "ScrollRate": 100.0,
+        "MainMenu": true
+      }
+    },
+    {
+        "Name": "CreditsBackground",
+        "Flag": "",
+        "Sprite": {
+            "Mesh": "SquareMesh",
+            "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "SpriteSource": {
+            "Texture": "./Assets/Texture/UI_Menu_credits.png",
+            "Rows": 1,
+            "Cols": 1
+        },
+        "UI": {
+            "Offset": [ 0.0, 0.0, 0.0 ]
+        },
+        "Transform": {
+            "Translation": [ -294.84039306640625, 0.0, 3001.0 ],
+            "Scale": [ 1600.0, 900.0 ],
+            "Rotation": 0.0
+        }
+    }
+  ]
+}

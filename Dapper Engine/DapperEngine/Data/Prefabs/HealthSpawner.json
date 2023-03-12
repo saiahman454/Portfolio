@@ -1,0 +1,24 @@
+{
+  "GameObject": {
+    "Name": "HealthSpawner",
+    "Sprite": {
+      "Mesh": "SquareMesh",
+      "Tint": [ 1.0, 0.0, 0.0, 1.0 ]
+    },
+    "SpriteSource": {
+      "Texture": "./Assets/Texture/ENV_Prop_Img_02.png",
+      "Rows": 1,
+      "Cols": 1,
+      "FrameIndex": 1
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, -0.5 ],
+      "Scale": [ 100.0, 100.0 ],
+      "Rotation": 0.0
+    },
+    "EmitHealth": {
+      "Timer": 10.0,
+      "DespawnTimer": 20.0
+    }
+  }
+}

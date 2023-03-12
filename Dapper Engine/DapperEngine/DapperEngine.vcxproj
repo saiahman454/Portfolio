@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Dependencies\ImGui\imgui.cpp" />
+    <ClCompile Include="..\Dependencies\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="..\Dependencies\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="..\Dependencies\ImGui\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\Dependencies\ImGui\imgui_impl_opengl3.cpp" />
+    <ClCompile Include="..\Dependencies\ImGui\imgui_stdlib.cpp" />
+    <ClCompile Include="..\Dependencies\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="..\Dependencies\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Source\Ambience.cpp" />
+    <ClCompile Include="Source\AnimationSprite.cpp" />
+    <ClCompile Include="Source\AnimationManager.cpp" />
+    <ClCompile Include="Source\Audio.cpp" />
+    <ClCompile Include="Source\Background.cpp" />
+    <ClCompile Include="Source\BackgroundManager.cpp" />
+    <ClCompile Include="Source\BGMBehavior.cpp" />
+    <ClCompile Include="Source\BGMController.cpp" />
+    <ClCompile Include="Source\BreakableWallBehavior.cpp" />
+    <ClCompile Include="Source\Button.cpp" />
+    <ClCompile Include="Source\CollectibleBehavior.cpp" />
+    <ClCompile Include="Source\CreditScrollBehavior.cpp" />
+    <ClCompile Include="Source\EmitHealth.cpp" />
+    <ClCompile Include="Source\EmitHealthManager.cpp" />
+    <ClCompile Include="Source\ExitSceneButtonBehavior.cpp" />
+    <ClCompile Include="Source\FloatingHeartBehavior.cpp" />
+    <ClCompile Include="Source\FpsWindow.cpp" />
+    <ClCompile Include="Source\FullScreenBehavior.cpp" />
+    <ClCompile Include="Source\JellyfishBehavior.cpp" />
+    <ClCompile Include="Source\LevelCollectiblesUIBehavior.cpp" />
+    <ClCompile Include="Source\LoadSceneButtonBehavior.cpp" />
+    <ClCompile Include="Source\MainMenuBackgroundBehavior.cpp" />
+    <ClCompile Include="Source\MassChangeWindow.cpp" />
+    <ClCompile Include="Source\MuteBehavior.cpp" />
+    <ClCompile Include="Source\NavButtonBehavior.cpp" />
+    <ClCompile Include="Source\PlayerCollectiblesUIBehavior.cpp" />
+    <ClCompile Include="Source\PlayerController.cpp" />
+    <ClCompile Include="Source\BehaviorDeserializer.cpp" />
+    <ClCompile Include="Source\BehaviorManager.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\CameraAnchor.cpp" />
+    <ClCompile Include="Source\CameraAnchorManager.cpp" />
+    <ClCompile Include="Source\CircleCollider.cpp" />
+    <ClCompile Include="Source\ColliderManager.cpp" />
+    <ClCompile Include="Source\ComponentRegistry.cpp" />
+    <ClCompile Include="Source\Deserializer.cpp" />
+    <ClCompile Include="Source\Engine.cpp" />
+    <ClCompile Include="Source\GameObject.cpp" />
+    <ClCompile Include="Source\GameObjectManager.cpp" />
+    <ClCompile Include="Source\GameStateManager.cpp" />
+    <ClCompile Include="Source\GameObjectListBox.cpp" />
+    <ClCompile Include="Source\Health.cpp" />
+    <ClCompile Include="Source\HealthManager.cpp" />
+    <ClCompile Include="Source\Input.cpp" />
+    <ClCompile Include="Source\Lerp.cpp" />
+    <ClCompile Include="Source\LevelEditor.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\IDManager.cpp" />
+    <ClCompile Include="Source\Mesh.cpp" />
+    <ClCompile Include="Source\MeshManager.cpp" />
+    <ClCompile Include="Source\ParticleEmitter.cpp" />
+    <ClCompile Include="Source\ParticleEmitterManager.cpp" />
+    <ClCompile Include="Source\ParticleSystem.cpp" />
+    <ClCompile Include="Source\Physics.cpp" />
+    <ClCompile Include="Source\PhysicsManager.cpp" />
+    <ClCompile Include="Source\PrefabsWindow.cpp" />
+    <ClCompile Include="Source\ProgressionBarBehavior.cpp" />
+    <ClCompile Include="Source\QuitButtonBehavior.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Source\RestartBehavior.cpp" />
+    <ClCompile Include="Source\SaveMenu.cpp" />
+    <ClCompile Include="Source\Scene.cpp" />
+    <ClCompile Include="Source\SceneManager.cpp" />
+    <ClCompile Include="Source\Shader.cpp" />
+    <ClCompile Include="Source\ShaderManager.cpp" />
+    <ClCompile Include="Source\AnimationSpine.cpp" />
+    <ClCompile Include="Source\SpineData.cpp" />
+    <ClCompile Include="Source\SpineInstance.cpp" />
+    <ClCompile Include="Source\spine\src\spine\AnimationState.cpp" />
+    <ClCompile Include="Source\spine\src\spine\AnimationStateData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Atlas.cpp" />
+    <ClCompile Include="Source\spine\src\spine\AtlasAttachmentLoader.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Attachment.cpp" />
+    <ClCompile Include="Source\spine\src\spine\AttachmentLoader.cpp" />
+    <ClCompile Include="Source\spine\src\spine\AttachmentTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Bone.cpp" />
+    <ClCompile Include="Source\spine\src\spine\BoneData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\BoundingBoxAttachment.cpp" />
+    <ClCompile Include="Source\spine\src\spine\ClippingAttachment.cpp" />
+    <ClCompile Include="Source\spine\src\spine\ColorTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\ConstraintData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\CurveTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\DeformTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\DrawOrderTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Event.cpp" />
+    <ClCompile Include="Source\spine\src\spine\EventData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\EventTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Extension.cpp" />
+    <ClCompile Include="Source\spine\src\spine\IkConstraint.cpp" />
+    <ClCompile Include="Source\spine\src\spine\IkConstraintData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\IkConstraintTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Json.cpp" />
+    <ClCompile Include="Source\spine\src\spine\LinkedMesh.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Log.cpp" />
+    <ClCompile Include="Source\spine\src\spine\MathUtil.cpp" />
+    <ClCompile Include="Source\spine\src\spine\MeshAttachment.cpp" />
+    <ClCompile Include="Source\spine\src\spine\PathAttachment.cpp" />
+    <ClCompile Include="Source\spine\src\spine\PathConstraint.cpp" />
+    <ClCompile Include="Source\spine\src\spine\PathConstraintData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\PathConstraintMixTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\PathConstraintPositionTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\PathConstraintSpacingTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\PointAttachment.cpp" />
+    <ClCompile Include="Source\spine\src\spine\RegionAttachment.cpp" />
+    <ClCompile Include="Source\spine\src\spine\RotateTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\RTTI.cpp" />
+    <ClCompile Include="Source\spine\src\spine\ScaleTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\ShearTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Skeleton.cpp" />
+    <ClCompile Include="Source\spine\src\spine\SkeletonBinary.cpp" />
+    <ClCompile Include="Source\spine\src\spine\SkeletonBounds.cpp" />
+    <ClCompile Include="Source\spine\src\spine\SkeletonClipping.cpp" />
+    <ClCompile Include="Source\spine\src\spine\SkeletonData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\SkeletonJson.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Skin.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Slot.cpp" />
+    <ClCompile Include="Source\spine\src\spine\SlotData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Spine_Animation.cpp" />
+    <ClCompile Include="Source\spine\src\spine\SpineObject.cpp" />
+    <ClCompile Include="Source\spine\src\spine\TextureLoader.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Timeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\TransformConstraint.cpp" />
+    <ClCompile Include="Source\spine\src\spine\TransformConstraintData.cpp" />
+    <ClCompile Include="Source\spine\src\spine\TransformConstraintTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\TranslateTimeline.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Triangulator.cpp" />
+    <ClCompile Include="Source\spine\src\spine\Updatable.cpp" />
+    <ClCompile Include="Source\spine\src\spine\VertexAttachment.cpp" />
+    <ClCompile Include="Source\spine\src\spine\VertexEffect.cpp" />
+    <ClCompile Include="Source\SplashFadeBehavior.cpp" />
+    <ClCompile Include="Source\Sprite.cpp" />
+    <ClCompile Include="Source\SpriteManager.cpp" />
+    <ClCompile Include="Source\SpriteSource.cpp" />
+    <ClCompile Include="Source\SpriteSourceManager.cpp" />
+    <ClCompile Include="Source\ComponentWindow.cpp" />
+    <ClCompile Include="Source\SpriteText.cpp" />
+    <ClCompile Include="Source\SpriteTextManager.cpp" />
+    <ClCompile Include="Source\SquareCollider.cpp" />
+    <ClCompile Include="Source\Swordfish.cpp" />
+    <ClCompile Include="Source\SwordfishMissle.cpp" />
+    <ClCompile Include="Source\Texture.cpp" />
+    <ClCompile Include="Source\TextureManager.cpp" />
+    <ClCompile Include="Source\Tile.cpp" />
+    <ClCompile Include="Source\TileManager.cpp" />
+    <ClCompile Include="Source\Time.cpp" />
+    <ClCompile Include="Source\TotalCollectable.cpp" />
+    <ClCompile Include="Source\TotalCollectableManager.cpp" />
+    <ClCompile Include="Source\Trace.cpp" />
+    <ClCompile Include="Source\Transform.cpp" />
+    <ClCompile Include="Source\TransformManager.cpp" />
+    <ClCompile Include="Source\UI.cpp" />
+    <ClCompile Include="Source\UIManager.cpp" />
+    <ClCompile Include="Source\Utility.cpp" />
+    <ClCompile Include="Source\Window.cpp" />
+    <ClCompile Include="Source\JsonWriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Dependencies\ImGui\imconfig.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imgui.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_glfw.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_opengl3.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imgui_impl_opengl3_loader.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imgui_internal.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imgui_stdlib.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imstb_textedit.h" />
+    <ClInclude Include="..\Dependencies\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Source\Ambience.h" />
+    <ClInclude Include="Source\AnimationSprite.h" />
+    <ClInclude Include="Source\AnimationManager.h" />
+    <ClInclude Include="Source\Audio.h" />
+    <ClInclude Include="Source\Background.h" />
+    <ClInclude Include="Source\BackgroundManager.h" />
+    <ClInclude Include="Source\BGMBehavior.h" />
+    <ClInclude Include="Source\BGMController.h" />
+    <ClInclude Include="Source\BreakableWallBehavior.h" />
+    <ClInclude Include="Source\Button.h" />
+    <ClInclude Include="Source\CollectibleBehavior.h" />
+    <ClInclude Include="Source\CreditScrollBehavior.h" />
+    <ClInclude Include="Source\EmitHealth.h" />
+    <ClInclude Include="Source\EmitHealthManager.h" />
+    <ClInclude Include="Source\ExitSceneButtonBehavior.h" />
+    <ClInclude Include="Source\FloatingHeartBehavior.h" />
+    <ClInclude Include="Source\FpsWindow.h" />
+    <ClInclude Include="Source\FullScreenBehavior.h" />
+    <ClInclude Include="Source\IJsonWriter.h" />
+    <ClInclude Include="Source\JellyfishBehavior.h" />
+    <ClInclude Include="Source\LevelCollectiblesUIBehavior.h" />
+    <ClInclude Include="Source\LoadSceneButtonBehavior.h" />
+    <ClInclude Include="Source\MainMenuBackgroundBehavior.h" />
+    <ClInclude Include="Source\MassChangeWindow.h" />
+    <ClInclude Include="Source\MuteBehavior.h" />
+    <ClInclude Include="Source\NavButtonBehavior.h" />
+    <ClInclude Include="Source\PlayerCollectiblesUIBehavior.h" />
+    <ClInclude Include="Source\Particle.h" />
+    <ClInclude Include="Source\PlayerController.h" />
+    <ClInclude Include="Source\BehaviorDeserializer.h" />
+    <ClInclude Include="Source\BehaviorManager.h" />
+    <ClInclude Include="Source\CameraAnchor.h" />
+    <ClInclude Include="Source\CameraAnchorManager.h" />
+    <ClInclude Include="Source\CircleCollider.h" />
+    <ClInclude Include="Source\Health.h" />
+    <ClInclude Include="Source\HealthManager.h" />
+    <ClInclude Include="Source\IAnimation.h" />
+    <ClInclude Include="Source\ICollider.h" />
+    <ClInclude Include="Source\ColliderManager.h" />
+    <ClInclude Include="Source\ComponentRegistry.h" />
+    <ClInclude Include="Source\IDManager.h" />
+    <ClInclude Include="Source\AnimationSpine.h" />
+    <ClInclude Include="Source\Messenger.h" />
+    <ClInclude Include="Source\PrefabsWindow.h" />
+    <ClInclude Include="Source\ProgressionBarBehavior.h" />
+    <ClInclude Include="Source\QuitButtonBehavior.h" />
+    <ClInclude Include="Source\RestartBehavior.h" />
+    <ClInclude Include="Source\SaveMenu.h" />
+    <ClInclude Include="Source\Scene.h" />
+    <ClInclude Include="Source\SceneManager.h" />
+    <ClInclude Include="Source\SpineData.h" />
+    <ClInclude Include="Source\SpineInstance.h" />
+    <ClInclude Include="Source\SpineTextureLoader.h" />
+    <ClInclude Include="Source\SplashFadeBehavior.h" />
+    <ClInclude Include="Source\SpriteText.h" />
+    <ClInclude Include="Source\SpriteTextManager.h" />
+    <ClInclude Include="Source\Swordfish.h" />
+    <ClInclude Include="Source\SwordfishMissle.h" />
+    <ClInclude Include="Source\Tile.h" />
+    <ClInclude Include="Source\TileManager.h" />
+    <ClInclude Include="Source\TotalCollectable.h" />
+    <ClInclude Include="Source\TotalCollectableManager.h" />
+    <ClInclude Include="Source\Trace.h" />
+    <ClInclude Include="Source\UI.h" />
+    <ClInclude Include="Source\UIManager.h" />
+    <ClInclude Include="Source\Utility.h" />
+    <ClInclude Include="Source\IimguiWindow.h" />
+    <ClInclude Include="Source\GameObjectListBox.h" />
+    <ClInclude Include="Source\LevelEditor.h" />
+    <ClInclude Include="Source\MeshManager.h" />
+    <ClInclude Include="Source\ParticleEmitter.h" />
+    <ClInclude Include="Source\ParticleEmitterManager.h" />
+    <ClInclude Include="Source\ParticleSystem.h" />
+    <ClInclude Include="Source\ShaderManager.h" />
+    <ClInclude Include="Source\SpriteSource.h" />
+    <ClInclude Include="Source\SpriteSourceManager.h" />
+    <ClInclude Include="Source\ComponentWindow.h" />
+    <ClInclude Include="Source\SquareCollider.h" />
+    <ClInclude Include="Source\IStateMachine.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\CommonValues.h" />
+    <ClInclude Include="Source\Deserializer.h" />
+    <ClInclude Include="Source\GameObject.h" />
+    <ClInclude Include="Source\GameObjectManager.h" />
+    <ClInclude Include="Source\GameStateManager.h" />
+    <ClInclude Include="Source\IComponent.h" />
+    <ClInclude Include="Source\Input.h" />
+    <ClInclude Include="Source\ISystem.h" />
+    <ClInclude Include="Source\Engine.h" />
+    <ClInclude Include="Source\ITypeManager.h" />
+    <ClInclude Include="Source\Lerp.h" />
+    <ClInclude Include="Source\Mesh.h" />
+    <ClInclude Include="Source\Physics.h" />
+    <ClInclude Include="Source\PhysicsManager.h" />
+    <ClInclude Include="Source\Renderer.h" />
+    <ClInclude Include="Source\Shader.h" />
+    <ClInclude Include="Source\Sprite.h" />
+    <ClInclude Include="Source\SpriteManager.h" />
+    <ClInclude Include="Source\Texture.h" />
+    <ClInclude Include="Source\TextureManager.h" />
+    <ClInclude Include="Source\Time.h" />
+    <ClInclude Include="Source\Transform.h" />
+    <ClInclude Include="Source\TransformManager.h" />
+    <ClInclude Include="Source\Window.h" />
+    <ClInclude Include="Source\JsonWriter.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9389a794-2333-42c2-afab-fd31e35c61d0}</ProjectGuid>
+    <RootNamespace>DapperEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)Dependencies\Rapid_Json\include;$(SolutionDir)/Dependencies/FMOD/studio/inc</IncludePath>
+    <LibraryPath>$(SolutionDir)/Dependencies/GLEW/lib/Release/Win32;$(SolutionDir)/Dependencies/GLFW/lib-vc2015;$(SolutionDir)/Dependencies/ASSIMP/lib;$(SolutionDir)/Dependencies/FMOD/studio/lib/x86;$(SolutionDir)/Dependencies/FMOD/core/lib/x86;%(AdditionalLibraryDirectories);$(LibraryPath)</LibraryPath>
+    <TargetName>Rushing Tide</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)Dependencies\Rapid_Json\include;$(SolutionDir)/Dependencies/FMOD/studio/inc</IncludePath>
+    <LibraryPath>$(SolutionDir)/Dependencies/GLEW/lib/Release/Win32;$(SolutionDir)/Dependencies/GLFW/lib-vc2015;$(SolutionDir)/Dependencies/ASSIMP/lib;$(SolutionDir)/Dependencies/FMOD/studio/lib/x86;$(SolutionDir)/Dependencies/FMOD/core/lib/x86;%(AdditionalLibraryDirectories);$(LibraryPath)</LibraryPath>
+    <TargetName>Rushing Tide</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)Dependencies\Rapid_Json\include;$(SolutionDir)/Dependencies/FMOD/core/inc;$(SolutionDir)/Dependencies/FMOD/studio/inc</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)Dependencies\Rapid_Json\include;$(SolutionDir)/Dependencies/FMOD/studio/inc</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\spine\include;$(SolutionDir)Dependencies\ImGui;$(SolutionDir)Dependencies\Rapid_Json\include;$(SolutionDir)/Dependencies/GLM;$(SolutionDir)/Dependencies/GLEW/include;$(SolutionDir)/Dependencies/GLFW/include;$(SolutionDir)/Dependencies/ASSIMP/include;$(SolutionDir)Dependencies\STB_Image;$(SolutionDir)/Dependencies/FMOD/studio/inc;$(SolutionDir)/Dependencies/FMOD/core/inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/Dependencies/GLEW/lib/Release/Win32;$(SolutionDir)/Dependencies/GLFW/lib-vc2019;$(SolutionDir)/Dependencies/ASSIMP/lib;$(SolutionDir)/Dependencies/FMOD/studio/lib/x86;$(SolutionDir)/Dependencies/FMOD/core/lib/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp-vc140-mt.lib;fmodL_vc.lib;fmod_vc.lib;fmodstudioL_vc.lib;fmodstudio_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT
+ %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\spine\include;$(SolutionDir)Dependencies\ImGui;$(SolutionDir)Dependencies\Rapid_Json\include;$(SolutionDir)/Dependencies/GLM;$(SolutionDir)/Dependencies/GLEW/include;$(SolutionDir)/Dependencies/GLFW/include;$(SolutionDir)/Dependencies/ASSIMP/include;$(SolutionDir)Dependencies\STB_Image;$(SolutionDir)/Dependencies/FMOD/studio/inc;$(SolutionDir)/Dependencies/FMOD/core/inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/Dependencies/GLEW/lib/Release/Win32;$(SolutionDir)/Dependencies/GLFW/lib-vc2019;$(SolutionDir)/Dependencies/ASSIMP/lib;$(SolutionDir)/Dependencies/FMOD/studio/lib/x86;$(SolutionDir)/Dependencies/FMOD/core/lib/x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3_mt.lib;assimp-vc140-mt.lib;fmod_vc.lib;fmodstudio_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT
+ %(AdditionalOptions)</AdditionalOptions>
+      <LinkTimeCodeGeneration>UseFastLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\spine\include;$(SolutionDir)Dependencies\ImGui;$(SolutionDir)Dependencies\Rapid_Json\include;$(SolutionDir)/Dependencies/GLM;$(SolutionDir)/Dependencies/GLEW/include;$(SolutionDir)/Dependencies/GLFW/include;$(SolutionDir)/Dependencies/ASSIMP/include;$(SolutionDir)Dependencies\STB_Image;%(AdditionalIncludeDirectories);$(SolutionDir)/Dependencies/FMOD/core/lib;$(SolutionDir)/Dependencies/FMOD/studio/lib</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../External Libs/GLEW/lib/Release/Win32;$(SolutionDir)/../External Libs/GLFW/lib-vc2015;$(SolutionDir)/../External Libs/ASSIMP/lib;%(AdditionalLibraryDirectories);$(SolutionDir)/Dependencies/FMOD/core/lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT
+ %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>./MakeBuildVS.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)Source\spine\include;$(SolutionDir)Dependencies\ImGui;$(SolutionDir)Dependencies\Rapid_Json\include;$(SolutionDir)/../External Libs/GLM;$(SolutionDir)/../External Libs/GLEW/include;$(SolutionDir)/../External Libs/GLFW/include;$(SolutionDir)/../External Libs/ASSIMP/include;$(SolutionDir)Dependencies\STB_Image;%(AdditionalIncludeDirectories);$(SolutionDir)/Dependencies/FMOD/core/lib;</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/../External Libs/GLEW/lib/Release/Win32;$(SolutionDir)/../External Libs/GLFW/lib-vc2015;$(SolutionDir)/../External Libs/ASSIMP/lib;%(AdditionalLibraryDirectories);$(SolutionDir)/Dependencies/FMOD/core/lib;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/NODEFAULTLIB:MSVCRT
+ %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>./MakeBuildVS.bat</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

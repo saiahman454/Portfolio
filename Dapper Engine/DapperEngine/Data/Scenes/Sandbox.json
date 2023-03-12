@@ -1,0 +1,285 @@
+
+{
+	"GameObjects": [
+		{
+			"Name": "Player1",
+			"Flag": "Player",
+			"Animation": {
+				"Type": "Spine",
+				"Name": "SquampleRig"
+			},
+			"Sprite": {
+				"Mesh": "SquampleSpineMesh",
+				"Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+			},
+			"SpriteSource": {
+				"Texture": "./Assets/Spine/SquampleRig.png",
+				"Rows": 1,
+				"Cols": 1
+			},
+			"Transform": {
+				"Translation": [ -819.9646606445313, 7.952830791473389, 0.10000000149011612 ],
+				"Scale": [ 100.0, -100.0 ],
+				"Rotation": 0.0
+			},
+			"Physics": {
+				"Velocity": [ 0.0, 0.0 ],
+				"Acceleration": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Restitution": 1.000100016593933,
+				"Mass": 10.0,
+				"Drag": 0
+			},
+			"CameraAnchor": {
+			},
+			"ParticleEmitter": {
+				"Texture": "./Assets/Texture/UI_Img_Bubble.png",
+				"Number": 30,
+				"Life": 4.0,
+				"FadeRate": 0.4000000059604645,
+				"MinSpeed": 10.0,
+				"MaxSpeed": 80.0,
+				"MinSpreadAngle": 160.0,
+				"MaxSpreadAngle": 200.0,
+				"Direction": 0.0,
+				"Burst": false,
+				"Timer": 0.25
+			},
+			"PlayerController": {
+				"Speed": 70.0,
+				"MaxSpeed": 800.0,
+				"DashMaxSpeed": 1800.0,
+				"AccelerationMultiplier": 20.0,
+				"DecelerationMultiplier": 1.0,
+				"DriftSpeed": 0.20000000298023224,
+				"DashDriftSpeed": 0.05,
+				"MaxDashMultiplier": 4.0,
+				"DashBaseLastingTime": 0.25,
+				"DashForce": 1000.0,
+				"DashFileName": "Player Dash SFX/BodyFall-Wet&RubberySurface.wav",
+				"DashVolume": 0.5,
+				"BounceFileName": "Player Bounce Off Wall SFX/Toys-SqueezeToy-Int-CU-S_11.wav",
+				"BounceVolume": 0.5,
+				"WinFileName": "Tones-Bells-BrassBell-Int_3.wav",
+				"WinVolume": 0.5,
+				"LoseFileName": "WaterLiquid-HeavySplashes_1.wav",
+				"LoseVolume": 0.5
+			},
+			"SquareCollider": {
+				"Size": [ 90.0, 90.0 ],
+				"GhostCollider": false
+			},
+			"Health": {
+				"Lifes": 3,
+				"MaxLifes": 3
+			}
+		},
+		{
+			"Name": "BasicTile1",
+			"Flag": "Tile",
+			"Sprite": {
+				"Mesh": "SquareMesh",
+				"Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+			},
+			"SpriteSource": {
+				"Texture": "./Assets/Texture/ENV_C_TS_SS_01.png",
+				"Rows": 8,
+				"Cols": 8
+			},
+			"Tile": {
+				"TileID": 9,
+				"Dimension": [ 66.0, 1.0 ]
+			},
+			"Transform": {
+				"Translation": [ 1024.0, -416.0, 0.10000000149011612 ],
+				"Scale": [ 4224.0, 64.0 ],
+				"Rotation": 0.0
+			},
+			"Physics": {
+				"Velocity": [ 0.0, 0.0 ],
+				"Acceleration": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Restitution": 1.0,
+				"Mass": 0.0,
+				"Drag": 0
+			},
+			"SquareCollider": {
+				"Size": [ 4224.0, 64.0 ],
+				"GhostCollider": false
+			}
+		},
+		{
+			"Name": "BasicTile2",
+			"Flag": "Tile",
+			"Sprite": {
+				"Mesh": "SquareMesh",
+				"Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+			},
+			"SpriteSource": {
+				"Texture": "./Assets/Texture/ENV_C_TS_SS_01.png",
+				"Rows": 8,
+				"Cols": 8
+			},
+			"Tile": {
+				"TileID": 25,
+				"Dimension": [ 66.0, 1.0 ]
+			},
+			"Transform": {
+				"Translation": [ 1024.0, 416.0, 0.10000000149011612 ],
+				"Scale": [ 4224.0, 64.0 ],
+				"Rotation": 0.0
+			},
+			"Physics": {
+				"Velocity": [ 0.0, 0.0 ],
+				"Acceleration": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Restitution": 1.0,
+				"Mass": 0.0,
+				"Drag": 0
+			},
+			"SquareCollider": {
+				"Size": [ 4224.0, 64.0 ],
+				"GhostCollider": false
+			}
+		},
+		{
+			"Name": "BasicTile3",
+			"Flag": "Tile",
+			"Sprite": {
+				"Mesh": "SquareMesh",
+				"Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+			},
+			"SpriteSource": {
+				"Texture": "./Assets/Texture/ENV_C_TS_SS_01.png",
+				"Rows": 8,
+				"Cols": 8
+			},
+			"Tile": {
+				"TileID": 18,
+				"Dimension": [ 1.0, 12.0 ]
+			},
+			"Transform": {
+				"Translation": [ -1120.0, 0.0, 0.10000000149011612 ],
+				"Scale": [ 64.0, 768.0 ],
+				"Rotation": 0.0
+			},
+			"Physics": {
+				"Velocity": [ 0.0, 0.0 ],
+				"Acceleration": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Restitution": 1.0,
+				"Mass": 0.0,
+				"Drag": 0
+			},
+			"SquareCollider": {
+				"Size": [ 64.0, 768.0 ],
+				"GhostCollider": false
+			}
+		},
+		{
+			"Name": "BasicTile4",
+			"Flag": "Tile",
+			"Sprite": {
+				"Mesh": "SquareMesh",
+				"Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+			},
+			"Tile": {
+				"TileID": 16,
+				"Dimension": [ 1.0, 12.0 ]
+			},
+			"SpriteSource": {
+				"Texture": "./Assets/Texture/ENV_C_TS_SS_01.png",
+				"Rows": 8,
+				"Cols": 8
+			},
+			"Transform": {
+				"Translation": [ 3168.0, 0.0, 0.10000000149011612 ],
+				"Scale": [ 64.0, 768.0 ],
+				"Rotation": 0.0
+			},
+			"Physics": {
+				"Velocity": [ 0.0, 0.0 ],
+				"Acceleration": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Restitution": 1.0,
+				"Mass": 0.0,
+				"Drag": 0
+			},
+			"SquareCollider": {
+				"Size": [ 64.0, 768.0 ],
+				"GhostCollider": false
+			}
+		},
+		{
+			"Name": "BasicTile5",
+			"Flag": "Tile",
+			"Sprite": {
+				"Mesh": "SquareMesh",
+				"Tint": [ 10.0, 10.0, 10.0, 1.0 ]
+			},
+			"Tile": {
+				"TileID": 17,
+				"Dimension": [ 1.0, 12.0 ]
+			},
+			"SpriteSource": {
+				"Texture": "./Assets/Texture/ENV_C_TS_SS_01.png",
+				"Rows": 8,
+				"Cols": 8
+			},
+			"Transform": {
+				"Translation": [ 0.0, 0.0, 0.10000000149011612 ],
+				"Scale": [ 64.0, 768.0 ],
+				"Rotation": 0.0
+			},
+			"Physics": {
+				"Velocity": [ 0.0, 0.0 ],
+				"Acceleration": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Restitution": 1.0,
+				"Mass": 0.0,
+				"Drag": 0
+			}
+		},
+		{
+			"Name": "SwordfishMissle1",
+			"Flag": "Enemy",
+			"Sprite": {
+				"Mesh": "SwordfishSpineMesh",
+				"Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+			},
+			"Animation": {
+				"Type": "Spine",
+				"Name": "SwordfishRig"
+			},
+			"SpriteSource": {
+				"Texture": "./Assets/Spine/SwordfishRig.png",
+				"Rows": 1,
+				"Cols": 1
+			},
+			"Transform": {
+				"Translation": [ 1.3000297546386719, -519.2780151367188, 0.10000000149011612 ],
+				"Scale": [ 100.0, 100.0 ],
+				"Rotation": 180.0
+			},
+			"SwordfishMissle": {
+				"Trigger": 0.0,
+				"WarningLerp": 500.0,
+				"MovingTime": 2.0,
+				"StayTime": 1.0,
+				"Speed": 2000.0
+			},
+			"Physics": {
+				"Velocity": [ 0.0, 0.0 ],
+				"Acceleration": [ 0.0, 0.0 ],
+				"Rotation": 0.0,
+				"Restitution": 0.0,
+				"Mass": 10.0,
+				"Drag": 0
+			},
+			"SquareCollider": {
+				"Size": [ 100.0, 100.0 ],
+				"GhostCollider": true
+			}
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+  "GameObject": {
+    "Name": "BreakableWall",
+    "Sprite": {
+      "Mesh": "SquareMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "SpriteSource": {
+      "Texture": "./Assets/Texture/ENV_Prop_BreakableWall.png",
+      "Rows": 1,
+      "Cols": 1
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, -0.01999 ],
+      "Scale": [ 128.0, 256.0 ],
+      "Rotation": 0.0
+    },
+    "Physics": {
+      "Velocity": [ 0.0, 0.0 ],
+      "Acceleration": [ 0.0, 0.0 ],
+      "Rotation": 0.0,
+      "Restitution": 1.0,
+      "Mass": 0.0
+    },
+    "SquareCollider": {
+      "Size": [ 128.0, 256.0 ],
+      "GhostCollider": false
+    },
+    "BreakableWallBehavior": {
+      "SoundFileName": "/SFX/Player/Player_WallBreak",
+      "SoundVolume": 0.5
+    },
+    "ParticleEmitter": {
+      "Texture": [
+        "./Assets/Texture/ENV_Prop_WallParticle.png",
+        "./Assets/Texture/ENV_Prop_WallParticle_02.png",
+        "./Assets/Texture/ENV_Prop_WallParticle_03.png"
+      ],
+      "Number": 100,
+      "Life": 5.0,
+      "MinSpeed": 40.0,
+      "MaxSpeed": 120.0,
+      "MinSpreadAngle": 100.0,
+      "MaxSpreadAngle": 360.0,
+      "Direction": 0.0,
+      "Burst": true,
+      "Timer": 1.0,
+      "Gravity": 75.0,
+      "Type": 2,
+      "Size": [ 128.0, 256.0 ]
+    }
+  }
+}

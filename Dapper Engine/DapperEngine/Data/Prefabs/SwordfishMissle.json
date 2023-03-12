@@ -1,0 +1,46 @@
+{
+  "GameObject": 
+    {
+        "Name": "SwordfishMissle",
+        "Flag": "Enemy",
+        "Sprite": {
+            "Mesh": "SwordfishSpineMesh",
+            "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "Animation": {
+            "Type": "Spine",
+            "Name": "SwordfishRig"
+        },
+        "SpriteSource": {
+            "Texture": "./Assets/Spine/SwordfishRig.png",
+            "Rows": 1,
+            "Cols": 1
+        },
+        "Transform": {
+            "Translation": [ 0.0, 0.0, 0.10 ],
+            "Scale": [ 100.0, 100.0 ],
+            "Rotation": 180.0
+        },
+        "SwordfishMissle": {
+            "Trigger": 0.0,
+            "WarningLerp": 500.0,
+            "MovingTime": 2.0,
+            "StayTime": 1.0,
+            "Speed": 2000.0,
+            "SoundFileName": "/SFX/Enemies/Swordfish/Swordfish_Damage",
+            "SoundVolume": 0.5
+        },
+        "Physics": {
+            "Velocity": [ 0.0, 0.0 ],
+            "Acceleration": [ 0.0, 0.0 ],
+            "Rotation": 0.0,
+            "Restitution": 0.0,
+            "Mass": 10.0,
+            "Drag": 0
+        },
+        "SquareCollider": {
+            "Size": [ 100.0, 100.0 ],
+            "GhostCollider": true
+        }
+    }
+}

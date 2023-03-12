@@ -1,0 +1,39 @@
+{
+  "GameObject": {
+    "Name": "SwordfishWarning",
+    "Flag": " ",
+    "Sprite": {
+      "Mesh": "SquareMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "SpriteSource": {
+        "Texture": "./Assets/Texture/Swordfish_Warning_UI.png",
+        "Rows": 1,
+        "Cols": 12,
+        "FrameIndex": 1
+    },
+    "Animation": {
+        "Type": "Sprite",
+        "CurrentFrame": 0,
+        "FrameCount": 12,
+        "FrameDuration": 0.125,
+        "IsLooping": true
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, 8.0 ],
+      "Scale": [ 150.0, 230.0 ],
+      "Rotation": 0.0
+    },
+    "Physics": {
+      "Velocity": [ 0.0, 0.0 ],
+      "Acceleration": [ 0.0, 0.0 ],
+      "Rotation": 0.0,
+      "Restitution": 0.0,
+      "Mass": 10.0
+    },
+    "SquareCollider": {
+      "Size": [ 100.0, 100.0 ],
+      "GhostCollider": true
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "GameObject": {
+    "Name": "Basic Tile",
+    "Flag": "Tile",
+    "Sprite": {
+      "Mesh": "SquareMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "SpriteSource": {
+      "Texture": "./Assets/Texture/ENV_Tileset_LightCave.png",
+      "Rows": 8,
+      "Cols": 8
+    },
+    "Tile": {
+      "TileID": 9,
+      "Dimension": [ 1.0, 1.0 ]
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, -0.01999 ],
+      "Scale": [ 64.0, 64.0 ],
+      "Rotation": 0.0
+    },
+    "Physics": {
+      "Velocity": [ 0.0, 0.0 ],
+      "Acceleration": [ 0.0, 0.0 ],
+      "Rotation": 0.0,
+      "Restitution": 1.0,
+      "Mass": 0.0
+    },
+    "SquareCollider": {
+      "Size": [ 64.0, 64.0 ],
+      "GhostCollider": false
+    }
+  }
+}
