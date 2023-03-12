@@ -1,0 +1,79 @@
+{
+  "GameObjects": [
+
+    {
+      "Name": "ExitGame",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Img_16.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.1 ],
+        "Scale": [ 1600.0, 900.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "CameraAnchor": {
+      }
+    },
+    {
+      "Name": "Play",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Img_18.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.11 ],
+        "Scale": [ 600.0, 200.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ -300.0, -300.0, 0.0 ]
+      },
+      "NavButtonBehavior": {
+        "GameState": "MainMenu"
+      }
+    },
+    {
+      "Name": "Exit",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Img_17.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.11 ],
+        "Scale": [ 600.0, 200.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 300.0, -300.0, 0.0 ]
+      },
+      "QuitButtonBehavior": {
+        "NoneTex": "UI_Button_Lose_Quit_Idle",
+        "HoveredTex": "UI_Button_Lose_Quit_Hover",
+        "ClickedTex": "UI_Button_Lose_Quit_Clicked",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      }
+    }
+  ]
+}

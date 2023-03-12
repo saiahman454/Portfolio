@@ -1,0 +1,32 @@
+{
+	"GameObject": {
+		"Name": "Background",
+		"Flag": "",
+		"Sprite": {
+			"Mesh": "SquareMesh",
+			"Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+		},
+		"SpriteSource": {
+			"Texture": "./Assets/Texture/ENV_IMG_08.png",
+			"Rows": 1,
+			"Cols": 1
+		},
+		"Transform": {
+			"Translation": [ -703.6220092773438, 190.41302490234375, -0.5 ],
+			"Scale": [ 1600.0, 900.0 ],
+			"Rotation": 0.0
+		},
+		"UI": {
+			"Offset": [ 0.0, 0.0, 0.0 ]
+		},
+		"BGMBehavior": {
+			"FileName": "/Music/BGM_Menu",
+			"Volume": 0.0
+		},
+		"Background": {
+			"u": 1.0,
+			"v": 1.0,
+			"speed": [ 8.000260353088379, 0.0 ]
+		}
+	}
+}

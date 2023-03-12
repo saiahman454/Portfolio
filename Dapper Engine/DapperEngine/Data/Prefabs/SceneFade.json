@@ -1,0 +1,23 @@
+{
+  "GameObject": {
+    "Name": "SceneFade",
+    "Flag": "SceneFade",
+    "Sprite": {
+      "Mesh": "SquareMesh",
+      "Tint": [ 255.0, 255.0, 255.0, 0.0 ]
+    },
+    "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Img_06.png",
+        "Rows": 1,
+        "Cols": 1
+    },
+    "Transform": {
+        "Translation": [ 0.0, 0.0, 300.0 ],
+        "Scale": [ 1600.0, 900.0 ],
+        "Rotation": 0.0
+    },
+    "UI": {
+        "Offset": [ 0.0, 0.0, 100.0 ]
+    }
+  }
+}

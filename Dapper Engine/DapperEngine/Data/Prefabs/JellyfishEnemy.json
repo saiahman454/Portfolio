@@ -1,0 +1,42 @@
+{
+  "GameObject": {
+    "Name": "JellyfishEnemy",
+    "Flag": "Enemy",
+    "Sprite": {
+      "Mesh": "JellyfishSpineMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "Animation": {
+        "Type": "Spine",
+        "Name": "EJ_Img_02"
+    },
+    "SpriteSource": {
+        "Texture": "./Assets/Spine/EJ_Img_02.png",
+        "Rows": 1,
+        "Cols": 1
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 100.0, 100.0 ],
+      "Rotation": 0.0
+    },
+    "Physics": {
+      "Velocity": [ 0.0, 0.0 ],
+      "Acceleration": [ 0.0, 0.0 ],
+      "Rotation": 0.0,
+      "Restitution": 0.0,
+      "Mass": 10.0
+    },
+    "SquareCollider": {
+      "Size": [ 100.0, 100.0 ],
+      "GhostCollider": true
+    },
+    "JellyfishBehavior": {
+      "Speed": 100.0,
+      "Pathpoint1": [ 0.0, 0.0 ],
+      "Pathpoint2": [ 0.0, 0.0 ],
+      "SoundFileName": "/SFX/Enemies/Jellyfish/Jellyfish_Damage",
+      "SoundVolume": 0.5
+    }
+  }
+}

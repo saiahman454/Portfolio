@@ -1,0 +1,27 @@
+{
+  "GameObject": {
+    "Name": "SeaweedEnvironment",
+    "Sprite": {
+      "Mesh": "SquareMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "SpriteSource": {
+      "Texture": "./Assets/Texture/ENV_PROP_IMG_01.png",
+      "Rows": 2,
+      "Cols": 11,
+      "FrameIndex": 1
+    },
+    "Animation": {
+      "Type": "Sprite",
+      "CurrentFrame": 0,
+      "FrameCount": 22,
+      "FrameDuration": 0.125,
+      "IsLooping": true
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 100.0, 100.0 ],
+      "Rotation": 0.0
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "GameObjects": [
+    {
+      "Name": "TryAgainButton",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "NavButtonBehavior": {
+        "GameState": "Level1",
+        "NoneTex": "UI_Button_Lose_TryAgain_Idle",
+        "HoveredTex": "UI_Button_Lose_TryAgain_Hover",
+        "ClickedTex": "UI_Button_Lose_TryAgain_Clicked",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      },
+      "SpriteSource": {
+        "Texture": "UI_Button_Lose_TryAgain_Idle",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 5.15960693359375, 250.0, 0.10999999940395355 ],
+        "Scale": [ 486.0, 141.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 400.0, -50.0, 0.0 ]
+      }
+    },
+    {
+      "Name": "QuitButton",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/Exit.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "LoadSceneButtonBehavior": {
+        "GameState": "LoseConfirmQuit",
+        "NoneTex": "UI_Button_Lose_Quit_Idle",
+        "HoveredTex": "UI_Button_Lose_Quit_Hover",
+        "ClickedTex": "UI_Button_Lose_Quit_Clicked",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      },
+      "UI": {
+        "Offset": [ 400.0, -250.0, 0.0 ]
+      },
+      "Transform": {
+        "Translation": [ 5.15960693359375, 0.0, 0.10999999940395355 ],
+        "Scale": [ 480.0, 135.0 ],
+        "Rotation": 0.0
+      }
+    },
+    {
+      "Name": "LoseScreen",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+        "SpriteSource": {
+            "Texture": "./Assets/Texture/UI_Menu_Lose.png",
+            "Rows": 1,
+            "Cols": 1
+        },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.1 ],
+        "Scale": [ 1600.0, 900.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "RestartBehavior": {
+
+      }
+    }
+  ]
+}

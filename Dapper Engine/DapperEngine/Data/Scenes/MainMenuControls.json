@@ -1,0 +1,58 @@
+{
+  "GameObjects": [
+    {
+      "Name": "LevelPassedScreen",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Menu_Controls.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.1 ],
+        "Scale": [ 1280.0, 720.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "RestartBehavior": {
+
+      }
+    },
+    {
+      "Name": "Continue",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "ExitSceneButtonBehavior": {
+        "GameState": "MainMenu",
+        "NoneTex": "UI_Button_Pause_X_Idle",
+        "HoveredTex": "UI_Button_Pause_X_Hover",
+        "ClickedTex": "UI_Button_Pause_X_Clicked",
+        "HoverFileName": "/SFX/UI/UI_Rollover",
+        "HoverVolume": 0.5,
+        "ClickFileName": "/SFX/UI/UI_Select",
+        "ClickVolume": 0.5
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Button_Pause_Continue_Clicked.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 5.15960693359375, 250.0, 0.10999999940395355 ],
+        "Scale": [ 50.0, 50.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 575.0, 325.0, 0.0 ]
+      }
+    }
+  ]
+}

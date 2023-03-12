@@ -1,0 +1,32 @@
+{
+  "GameObject": {
+    "Name": "WinTrigger",
+    "Flag": "WinTrigger",
+    "Sprite": {
+      "Mesh": "SquareMesh",
+      "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+    },
+    "SpriteSource": {
+      "Texture": "./Assets/Texture/UI_WinTrigger_01.png",
+      "Rows": 1,
+      "Cols": 1,
+      "FrameIndex": 1
+    },
+    "Transform": {
+      "Translation": [ 0.0, 0.0, 0.0 ],
+      "Scale": [ 100.0, 100.0 ],
+      "Rotation": 0.0
+    },
+    "Physics": {
+      "Velocity": [ 0.0, 0.0 ],
+      "Acceleration": [ 0.0, 0.0 ],
+      "Rotation": 0.0,
+      "Restitution": 0.0,
+      "Mass": 10.0
+    },
+    "SquareCollider": {
+      "Size": [ 100.0, 100.0 ],
+      "GhostCollider": true
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Mesh": 
+  {
+    "Name": "LineMesh",
+    "Vertices": [ 0.0, 0.0, 0.0, 0.0, 0.0, 
+                  1.0, 1.0, 0.0, 0.0, 0.0 ],
+    "Edges" : [0, 1],
+    "Indices": [],
+    "Shader" :  "Shaders/debugShader"
+  }
+}

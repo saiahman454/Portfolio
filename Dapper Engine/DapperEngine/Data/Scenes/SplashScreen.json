@@ -1,0 +1,95 @@
+{
+  "GameObjects": [
+    {
+      "Name": "BGMBehavior",
+      "Flag": "",
+      "BGMBehavior": {
+        "FileName":"/SFX/Events/Event_TitleSequence",
+				"Volume":0.2
+      }
+    },
+    {
+      "Name": "Splash1",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/DigiPen_WHITE.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "Transform": {
+        "Translation": [ -294.84039306640625, 0.0, 0.10000000149011612 ],
+        "Scale": [ 1026.0, 249.0 ],
+        "Rotation": 0.0
+      },
+      "CameraAnchor": {
+      },
+      "SplashFadeBehavior": {
+        "StartTime": 0,
+        "FadeInTime": 2.0,
+        "StayTime": 2.0,
+        "FadeOutTime": 2.0
+      }
+    },
+    {
+      "Name": "Splash2",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/fmod5.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "Transform": {
+        "Translation": [ -294.84039306640625, 0.0, 0.10000000149011612 ],
+        "Scale": [ 765.0, 765.0 ],
+        "Rotation": 0.0
+      },
+      "SplashFadeBehavior": {
+        "StartTime": 6,
+        "FadeInTime": 2.0,
+        "StayTime": 2.0,
+        "FadeOutTime": 2.0
+      }
+    },
+    {
+      "Name": "Splash3",
+      "Flag": "",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Menu_SplashScreen.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "Transform": {
+        "Translation": [ -294.84039306640625, 0.0, 0.10000000149011612 ],
+        "Scale": [ 1600.0, 900.0 ],
+        "Rotation": 0.0
+      },
+      "SplashFadeBehavior": {
+        "StartTime": 12,
+        "FadeInTime": 2.0,
+        "StayTime": 2.0,
+        "FadeOutTime": 2.0
+      }
+    }
+  ]
+}

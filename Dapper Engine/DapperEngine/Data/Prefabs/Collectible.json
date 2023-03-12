@@ -1,0 +1,61 @@
+{
+    "GameObject": {
+        "Name": "Collectible",
+        "Flag": "Collectible",
+        "Sprite": {
+            "Mesh": "SquareMesh",
+            "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+        },
+        "SpriteSource": {
+            "Texture": "./Assets/Texture/ENV_Prop_SandDollarSpin.png",
+            "Rows": 1,
+            "Cols": 12
+        },
+        "Animation": {
+            "Type": "Sprite",
+            "CurrentFrame": 0,
+            "FrameCount": 12,
+            "FrameDuration": 0.125,
+            "IsLooping": true
+        },
+        "CollectibleBehavior": {
+            "SoundFileName": "/SFX/Player/Player_PickupCollectable",
+            "SoundVolume": 0.5
+        },
+        "Transform": {
+            "Translation": [ 2328.0, 152.0, 0.10000000149011612 ],
+            "Scale": [ 84.0, 116.0 ],
+            "Rotation": 0.0
+        },
+        "Physics": {
+            "Velocity": [ 0.0, 0.0 ],
+            "Acceleration": [ 0.0, 0.0 ],
+            "Rotation": 0.0,
+            "Restitution": 1.0,
+            "Mass": 0.0,
+            "Drag": 0
+        },
+        "SquareCollider": {
+            "Size": [ 48.0, 48.0 ],
+            "GhostCollider": true
+        },
+        "ParticleEmitter": {
+            "Texture": "./Assets/Texture/ENV_Prop_SandDollarShine.png",
+            "Number": 15,
+            "Life": 4.0,
+            "FadeRate": 0.4000000059604645,
+            "MinSpeed": 10.0,
+            "MaxSpeed": 30.0,
+            "MinSpreadAngle": 0.0,
+            "MaxSpreadAngle": 360.0,
+            "Direction": 0.0,
+            "Burst": true,
+            "Timer": 1.0,
+            "Gravity": 0.0,
+            "Wavey": false,
+            "Offset": [ 0.0, 0.0 ],
+            "Size": [ 0.0, 0.0 ],
+            "Type": 0
+        }
+    }
+}

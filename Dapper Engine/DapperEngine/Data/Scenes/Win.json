@@ -1,0 +1,38 @@
+
+{
+	"GameObjects":[
+		{
+			"Name":"WinScreen"
+			,"Flag":""
+			,"Sprite"
+			:{
+				"Mesh":"SquareMesh"
+				,"Tint":[1.0,1.0,1.0,1.0]
+			}
+			,"SpriteSource"
+			:{
+				"Texture":"./Assets/Texture/UI_Img_09.png"
+				,"Rows":1
+				,"Cols":1
+			}
+			,"UI"
+			:{
+				"Offset":[0.0,0.0,0.0]
+			}
+			,"Transform"
+			:{
+				"Translation":[54597.5703125,10391.3994140625,0.10000000149011612]
+				,"Scale":[1600.0,900.0]
+				,"Rotation":0.0
+			}
+			,"BGMBehavior"
+			:{
+				"FileName":"/Music/BGM_Win"
+				,"Volume":0.15000000596046448
+			}
+			,"RestartBehavior"
+			:{
+			}
+		}
+	]
+}

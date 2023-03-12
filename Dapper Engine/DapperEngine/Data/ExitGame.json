@@ -1,0 +1,76 @@
+{
+  "GameObjects": [
+
+    {
+      "Name": "ExitGame",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Img_16.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.1 ],
+        "Scale": [ 1600.0, 900.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 0.0, 0.0, 0.0 ]
+      },
+      "BGMBehavior": {
+        "FileName": "SV03-SummerSea-Lukyanov.wav",
+        "Volume": 0.15
+      },
+      "CameraAnchor": {
+      }
+    },
+    {
+      "Name": "Play",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Img_18.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.11 ],
+        "Scale": [ 400.0, 200.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ -300.0, -300.0, 0.0 ]
+      },
+      "NavButtonBehavior": {
+        "GameState": "MainMenu"
+      }
+    },
+    {
+      "Name": "Exit",
+      "Sprite": {
+        "Mesh": "SquareMesh",
+        "Tint": [ 1.0, 1.0, 1.0, 1.0 ]
+      },
+      "SpriteSource": {
+        "Texture": "./Assets/Texture/UI_Img_17.png",
+        "Rows": 1,
+        "Cols": 1
+      },
+      "Transform": {
+        "Translation": [ 0.0, 0.0, 0.11 ],
+        "Scale": [ 400.0, 200.0 ],
+        "Rotation": 0.0
+      },
+      "UI": {
+        "Offset": [ 300.0, -300.0, 0.0 ]
+      },
+      "QuitButtonBehavior": {
+      }
+    }
+  ]
+}
